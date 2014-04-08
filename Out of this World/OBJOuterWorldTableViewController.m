@@ -92,15 +92,15 @@
     NSString* cellText = @"";
     
     if (indexPath.section == 0) {
-        cell.backgroundColor = [UIColor yellowColor];
+        cell.backgroundColor = [UIColor redColor];
         cellText = [NSString stringWithFormat: @"I am in section %i", indexPath.section];
     }
     else if (indexPath.section == 1) {
-        cell.backgroundColor = [UIColor greenColor];
+        cell.backgroundColor = [UIColor blueColor];
         cellText = @"another section";
     }
     else {
-        cell.backgroundColor = [UIColor blueColor];
+        cell.backgroundColor = [UIColor yellowColor];
         cellText = [NSString stringWithFormat: @"Cell %i", indexPath.row];
     }
         
