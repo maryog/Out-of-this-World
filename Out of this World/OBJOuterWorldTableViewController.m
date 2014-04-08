@@ -67,13 +67,19 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [self.planets count];
+    if (section == 0) {
+        return 2;
+    }
+    else if (section == 1)
+        return 1;
+    else
+        return 3;
 }
 
 
@@ -83,15 +89,22 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = [self.planets objectAtIndex: indexPath.row];
+    NSString* cellText = @"";
     
     if (indexPath.section == 0) {
         cell.backgroundColor = [UIColor yellowColor];
+        cellText = [NSString stringWithFormat: @"I am in section %i", indexPath.section];
     }
-    else if (indexPath.section == 1)
-        cell.backgroundColor = [UIColor lightGrayColor];
-    else
-        cell.backgroundColor = [UIColor purpleColor];
+    else if (indexPath.section == 1) {
+        cell.backgroundColor = [UIColor greenColor];
+        cellText = @"another section";
+    }
+    else {
+        cell.backgroundColor = [UIColor blueColor];
+        cellText = [NSString stringWithFormat: @"Cell %i", indexPath.row];
+    }
+        
+    cell.textLabel.text = cellText;
     
     return cell;
 }
