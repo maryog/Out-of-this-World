@@ -1,5 +1,5 @@
 //
-//  OBJViewController.h
+//  OBJOuterWorldTableViewController.h
 //  Out of this World
 //
 //  Created by Jimi Ogunyomi on 07/04/2014.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OBJViewController : UIViewController
+@interface OBJOuterWorldTableViewController : UITableViewController
+
+@property (strong, nonatomic) NSMutableArray* planets;
 
 @end

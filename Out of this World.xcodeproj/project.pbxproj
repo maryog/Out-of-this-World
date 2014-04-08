@@ -14,13 +14,14 @@
 		C5A71A8E18F33E240034D6F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A71A8D18F33E240034D6F7 /* main.m */; };
 		C5A71A9218F33E240034D6F7 /* OBJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A71A9118F33E240034D6F7 /* OBJAppDelegate.m */; };
 		C5A71A9518F33E240034D6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A71A9318F33E240034D6F7 /* Main.storyboard */; };
-		C5A71A9818F33E240034D6F7 /* OBJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A71A9718F33E240034D6F7 /* OBJViewController.m */; };
 		C5A71A9A18F33E240034D6F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A71A9918F33E240034D6F7 /* Images.xcassets */; };
 		C5A71AA118F33E240034D6F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A71AA018F33E240034D6F7 /* XCTest.framework */; };
 		C5A71AA218F33E240034D6F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A71A8118F33E240034D6F7 /* Foundation.framework */; };
 		C5A71AA318F33E240034D6F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A71A8518F33E240034D6F7 /* UIKit.framework */; };
 		C5A71AAB18F33E240034D6F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5A71AA918F33E240034D6F7 /* InfoPlist.strings */; };
 		C5A71AAD18F33E240034D6F7 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A71AAC18F33E240034D6F7 /* Out_of_this_WorldTests.m */; };
+		C5A71AB818F33EC10034D6F7 /* OBJOuterWorldTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A71AB718F33EC10034D6F7 /* OBJOuterWorldTableViewController.m */; };
+		C5A71ABB18F421110034D6F7 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A71ABA18F421110034D6F7 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		C5A71A9018F33E240034D6F7 /* OBJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBJAppDelegate.h; sourceTree = "<group>"; };
 		C5A71A9118F33E240034D6F7 /* OBJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBJAppDelegate.m; sourceTree = "<group>"; };
 		C5A71A9418F33E240034D6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C5A71A9618F33E240034D6F7 /* OBJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBJViewController.h; sourceTree = "<group>"; };
-		C5A71A9718F33E240034D6F7 /* OBJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBJViewController.m; sourceTree = "<group>"; };
 		C5A71A9918F33E240034D6F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5A71A9F18F33E240034D6F7 /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A71AA018F33E240034D6F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C5A71AA818F33E240034D6F7 /* Out of this WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this WorldTests-Info.plist"; sourceTree = "<group>"; };
 		C5A71AAA18F33E240034D6F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5A71AAC18F33E240034D6F7 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+		C5A71AB618F33EC10034D6F7 /* OBJOuterWorldTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJOuterWorldTableViewController.h; sourceTree = "<group>"; };
+		C5A71AB718F33EC10034D6F7 /* OBJOuterWorldTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJOuterWorldTableViewController.m; sourceTree = "<group>"; };
+		C5A71AB918F421110034D6F7 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		C5A71ABA18F421110034D6F7 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,8 @@
 				C5A71A9018F33E240034D6F7 /* OBJAppDelegate.h */,
 				C5A71A9118F33E240034D6F7 /* OBJAppDelegate.m */,
 				C5A71A9318F33E240034D6F7 /* Main.storyboard */,
-				C5A71A9618F33E240034D6F7 /* OBJViewController.h */,
-				C5A71A9718F33E240034D6F7 /* OBJViewController.m */,
+				C5A71AB618F33EC10034D6F7 /* OBJOuterWorldTableViewController.h */,
+				C5A71AB718F33EC10034D6F7 /* OBJOuterWorldTableViewController.m */,
 				C5A71A9918F33E240034D6F7 /* Images.xcassets */,
 				C5A71A8818F33E240034D6F7 /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		C5A71A8818F33E240034D6F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5A71AB918F421110034D6F7 /* AstronomicalData.h */,
+				C5A71ABA18F421110034D6F7 /* AstronomicalData.m */,
 				C5A71A8918F33E240034D6F7 /* Out of this World-Info.plist */,
 				C5A71A8A18F33E240034D6F7 /* InfoPlist.strings */,
 				C5A71A8D18F33E240034D6F7 /* main.m */,
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5A71A9818F33E240034D6F7 /* OBJViewController.m in Sources */,
 				C5A71A9218F33E240034D6F7 /* OBJAppDelegate.m in Sources */,
 				C5A71A8E18F33E240034D6F7 /* main.m in Sources */,
+				C5A71AB818F33EC10034D6F7 /* OBJOuterWorldTableViewController.m in Sources */,
+				C5A71ABB18F421110034D6F7 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
