@@ -89,22 +89,19 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    NSString* cellText = @"";
     
     if (indexPath.section == 0) {
         cell.backgroundColor = [UIColor redColor];
-        cellText = [NSString stringWithFormat: @"I am in section %i", indexPath.section];
+        cell.textLabel.text = @"I am in section 0";
     }
     else if (indexPath.section == 1) {
         cell.backgroundColor = [UIColor blueColor];
-        cellText = @"another section";
+        cell.textLabel.text = @"another section";
     }
     else {
         cell.backgroundColor = [UIColor yellowColor];
-        cellText = [NSString stringWithFormat: @"Cell %i", indexPath.row];
+        cell.textLabel.text = [NSString stringWithFormat: @"Cell %i", indexPath.row];
     }
-        
-    cell.textLabel.text = cellText;
     
     return cell;
 }
